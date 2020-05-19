@@ -52,7 +52,7 @@ public class Calculadora {
 
     double divide (double a){
         if (a==0){
-            throw new ArithmeticException("No se puede dividir por cero!!!");
+            throw new ArithmeticException("INFINITO!!!");
         }
         ans = ans/a;
         return ans;
