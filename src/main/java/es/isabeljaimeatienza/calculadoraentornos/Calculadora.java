@@ -28,7 +28,7 @@ public class Calculadora {
     }
     double divide (double a , double b){
         if (b==0){
-            throw new ArithmeticException("No se puede dividir por cero!!!");
+            throw new ArithmeticException("INFINITO");
         }
         ans = a/b;
         return ans;
